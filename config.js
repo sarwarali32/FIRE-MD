@@ -6,12 +6,12 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "2349013432338; Opaksfire"
+const ownervb = process.env.OWNERS || "923300795089"; Opaksfire"
 
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = ["923300795089"];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "923300795089" //put your bot number here
 
-global.mods = ['2349013432338', '923300795089']
-global.prems = ['2349013432338', '923300795089', '2349013432338']
-global.allowed = ['2349013432338', '923300795089', '2349013432338']
+global.mods = ['923300795089', '923300795089']
+global.prems = ['923300795089', '923300795089', '923300795089']
+global.allowed = ['923300795089', '923300795089', '923300795089']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -70,7 +70,7 @@ global.APIKeys = {
 
 // Sticker WM
 global.botname = process.env.BOTNAME
-global.premium = 'false'
+global.premium = 'true'
 global.packname = 'FIRE MD'
 global.author = 'OPAKSFIRE'
 global.menuvid = 'https://files.catbox.moe/r9oil6.mp4'
