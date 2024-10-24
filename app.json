@@ -8,9 +8,9 @@
   "stack": "container",
   "env": {
     "OWNERS": {
-      "description": "owner numbers",
+      "description": "923300795089",
       "required": true,
-      "value": "2349013432338;opaksfire"
+      "value": "923300795089;opaksfire"
     },
     "BOTNAME": {
       "description": "Give your BOT a name",
